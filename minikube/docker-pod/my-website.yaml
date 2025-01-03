@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-website-pod
+  labels:
+    app: my-app
+spec:
+  containers:
+  - name: my-website
+    image: my-website
+    imagePullPolicy: Never
+    ports:
+    - containerPort: 80
+

@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pvc-pod-test
+spec:
+  containers:
+    - name: my-container
+      image: nginx  # Replace with your container image
+      volumeMounts:
+        - name: my-volume
+          mountPath: /usr/share/nginx/html  # Path where the volume will be mounted inside the container
+  volumes:
+    - name: my-volume
+      persistentVolumeClaim:
+        claimName: my-pvc-test
+

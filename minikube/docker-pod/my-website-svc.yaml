@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-website-service
+spec:
+  selector:
+    app: my-app        # The label selector to find the pod(s) to expose
+  ports:
+    - protocol: TCP
+      port: 80           # The port on which the service will be exposed
+      targetPort: 80      # The port your container is listening on
+  type: NodePort      # Exposes the service externally (you can use NodePort or ClusterIP too)
+
