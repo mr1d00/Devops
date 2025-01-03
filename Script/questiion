@@ -1,0 +1,58 @@
+BASH SCRIPTING QUESTIONS
+
+01 - Create a Bash script that takes two numbers as input from the user and prints their sum.
+02 - Write a Bash script to create a new directory named "backup" if it doesn't already exist.
+03 - Create a Bash script that finds and prints all files larger than 1MB in the current directory. (
+Print any messages)
+04 - Write a Bash script that prompts the user to enter a directory name and then prints the
+number of files in that directory.
+05 - Develop a Bash script that takes a string as input and prints the number of words in the
+string.
+06 - Develop a Bash script that takes a filename as input and counts the number of occurrences
+of a specific word in the file.
+07 - Write a Bash script to find and print all symbolic links in the / directory
+08 - Create a Bash script that takes a directory name as input and prints the total size of all files
+in that directory.
+09 - Write a Bash script that takes two filenames as input and compares their contents. If they
+are identical, print "Files are identical"; otherwise, print "Files are different."
+10 - Write a Bash script that takes a filename as input and prints the file's permissions in
+symbolic notation (e.g., -rwxr-xr--).
+11 - Write a Bash script that takes a list of filenames as arguments and concatenates their
+contents into a single file.
+12 - Write a Bash script that prompts the user to enter a directory name and then creates
+subdirectories named "Monday" to "Friday" within that directory.
+13 - Develop a Bash script that takes a number as input from the user and prints "Positive" if the
+number is greater than zero, "Negative" if it's less than zero, and "Zero" if it's equal to zero
+14 - Develop a Bash script that takes a filename as input and checks if the file is executable. If it
+is, print "File is executable"; otherwise, print "File is not executable."
+15 - Write a Bash script that prompts the user for their age and prints "You are an adult" if their
+age is 18 or older; otherwise, print "You are a minor."
+16 - Create a Bash script that checks if a given username exists in the system. If it does, display
+"User exists"; otherwise, display "User does not exist."
+BASH SCRIPTING QUESTIONS
+17 - Develop a Bash script that checks if the SSH service is running on the system. If it's
+running, display "SSH service is running"; otherwise, start the service and print "SSH service
+started."
+18 - Write a Bash script that checks if a package named "nginx" is installed on the system. If it's
+installed, print "Nginx is installed"; otherwise, install the package and print "Nginx installed
+successfully."
+19 - Create a Bash script that checks the disk usage of the root filesystem. If the disk usage
+exceeds 90%, print "Disk usage high"; otherwise, print "Disk usage normal."
+20 - Develop a Bash script that checks if a user named "admin" exists on the system. If the user
+exists, print "User exists"; otherwise, create the user and print "User created successfully."
+21 - Write a Bash script that checks if the "sudo" command is configured for the current user. If
+it's configured, print "User has sudo access"; otherwise, print "User does not have sudo access."
+22 - Develop a Bash script that checks the system load average. If the load average exceeds a
+predefined threshold (e.g., 2.0), print a warning message; otherwise, print "System load normal."
+23 - Develop a Bash script that checks the available disk space in the "/home" directory. If the
+available space is less than 1GB, print a warning message; otherwise, print "Disk space is
+sufficient."
+24 - Write a Bash script that checks if a user named "john" is logged in to the system. If the user
+is logged in, display "User is logged in"; otherwise, print "User is not logged in."
+25 - Create a Bash script that checks the system uptime. If the uptime is less than 1 hour, print
+"System recently started"; otherwise, print "System has been running for a while."
+26 - Develop a Bash script that checks if a network interface (e.g., "enp0s3") is up and running.
+If it's up, print "Interface is up"; otherwise, print "Interface is down."
+27 - Write a Bash script that checks the current user's home directory. If it's located in "/home",
+print "Home directory standard"; if it's located elsewhere, print "Home directory non-standard."
+
